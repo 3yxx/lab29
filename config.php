@@ -2,7 +2,7 @@
 session_start();
 define("APP_ID",'53176784');
 define("APP_SECRET",'tOLYOuasPs8CXs2GE9ZL');
-define("REDIRECT_URI",'http://3yxx.github.io/auth.php');
+define("REDIRECT_URI",'http://l33604qd.beget.tech/auth.php');
 define("URL_ACCESS_TOKEN",'https://oauth.vk.com/access_token');
 define("URL_AUTH",'http://oauth.vk.com/authorize');
 define("URL_GET_USER",'https://api.vk.com/method/users.get');
