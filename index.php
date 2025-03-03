@@ -34,13 +34,13 @@ header("Content-Type:text/html;charset='UTF-8'");
 			<strong><a href="auth.php">Авторизация</a></strong>
 
 		</p>
-		<?
+		<?php
 		if($_SESSION['user']) {
 			$user = $_SESSION['user']->response[0];
 		}
 		?>
-		<p><?php echo "Имя: ".$user->first_name;?></p>
-		<p><?php echo "Фамилия: ".$user->last_name;?></p>
+		<p><?php echo "Имя: ".$user->first_name?></p>
+		<p><?php echo "Фамилия: ".$user->last_name?></p>
 		</div>
 
 	</body>
